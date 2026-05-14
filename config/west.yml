@@ -6,20 +6,16 @@ manifest:
       url-base: https://github.com/cannonkeys
     - name: awkannan
       url-base: https://github.com/awkannan
-
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3.0
+      revision: v0.3
       import: app/west.yml
-
     - name: zmk-cannonkeys-keyboards
       remote: cannonkeys
       revision: main
-
     - name: zmk-gpio-behavior
       remote: awkannan
       revision: main
-
   self:
     path: config
