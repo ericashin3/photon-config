@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: cannonkeys
       url-base: https://github.com/cannonkeys
+    - name: awkannan
+      url-base: https://github.com/awkannan
 
   projects:
     - name: zmk
@@ -13,6 +15,10 @@ manifest:
 
     - name: zmk-cannonkeys-keyboards
       remote: cannonkeys
+      revision: main
+
+    - name: zmk-gpio-behavior
+      remote: awkannan
       revision: main
 
   self:
