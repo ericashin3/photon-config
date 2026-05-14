@@ -1,2 +1,7 @@
 include:
   - board: photon
+    artifact-name: photon
+  - board: photon
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: photon_studio
